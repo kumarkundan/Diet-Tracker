@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mindiet">Min. Diet</string>
+    <string name="dietcounter">Diet Counter</string>
+    <string name="dietrate">Diet Rate</string>
+    <string name="extra">Extra</string>
+    <string name="calbill">Fetch Bill</string>
+    <string name="refresh">Refresh</string>
+    <string name="servicecharge">Service Charge</string>
+    <string name="fill">Fill</string>
+    <string name="date">Date</string>
+    <string name="name">Name</string>
+    <string name="charge">Charge</string>
+    <string name="total">Total Extras</string>
+    <string name="view">View Extra</string>
+    <string name="bill">Bill</string>
+    <string name="doublediet">2Xdiet days</string>
+    <string name="totalex">Total Extra</string>
+    <string name="show">Show Daily Expense</string>
+    <string name="edit">Edit</string>
+    <string name="update">Update</string>
+    <string name="summary">Summary</string>
+    <string name="save">Save</string>
+
+</resources>

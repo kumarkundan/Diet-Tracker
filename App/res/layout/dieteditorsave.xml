@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+
+        <Button
+            android:id="@+id/bEdit1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bDailyExp1"
+            android:layout_alignBottom="@+id/bDailyExp1"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/bDailyExp1"
+            android:text="@string/edit" />
+
+        <TextView
+            android:id="@+id/tTotalExtra1"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bEdit1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="26dp"
+            android:text="@string/totalex"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tDietCounter1"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tMinDiet1"
+            android:layout_marginTop="80dp"
+            android:text="@string/dietcounter"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tDietRate1"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tTotalExtra1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="57dp"
+            android:text="@string/dietrate"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tMinDiet1"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/mindiet"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/bDailyExp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="33dp"
+            android:text="@string/show" />
+
+        <TextView
+            android:id="@+id/tDDD2"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tDDD1"
+            android:layout_alignBottom="@+id/tDDD1"
+            android:layout_alignLeft="@+id/tDietCounter2"
+            android:layout_alignParentRight="true"
+            android:text="@string/fill"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tDietRate2"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tDietRate1"
+            android:layout_alignBottom="@+id/tDietRate1"
+            android:layout_alignLeft="@+id/tServiceCharge2"
+            android:layout_alignParentRight="true"
+            android:text="@string/fill"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tTotalExtra2"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tDietRate2"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tDietRate1"
+            android:text="@string/fill"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tDietCounter2"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tDietCounter1"
+            android:layout_alignBottom="@+id/tDietCounter1"
+            android:layout_alignLeft="@+id/tMinDiet2"
+            android:layout_alignParentRight="true"
+            android:text="@string/fill"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tServiceCharge1"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tServiceCharge2"
+            android:layout_alignBottom="@+id/tServiceCharge2"
+            android:layout_alignParentLeft="true"
+            android:text="@string/servicecharge"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tServiceCharge2"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tDietRate2"
+            android:layout_alignLeft="@+id/tDDD2"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="89dp"
+            android:text="@string/fill"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tMinDiet2"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tMinDiet1"
+            android:layout_alignBottom="@+id/tMinDiet1"
+            android:layout_alignParentRight="true"
+            android:text="@string/fill"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tDDD1"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tServiceCharge1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="100dp"
+            android:text="@string/doublediet"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
